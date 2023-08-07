@@ -1,0 +1,54 @@
+.mob-container {
+  width: clamp(320px, 100vw, 1023px);
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.headerMobile-list {
+  list-style: none;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerMobile-item {
+  padding-bottom: 30px;
+}
+
+.mob-menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background-color: rgb(47, 47, 47);
+}
+
+.mob-menu-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.mob-menu-close {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  margin: 1.5rem 0 0 -4rem;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.mob-menu--button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
