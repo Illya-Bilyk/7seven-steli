@@ -17,3 +17,12 @@
   font-weight: 700;
   line-height: normal;
 }
+
+.after-title {
+  color: #3c4049;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.44;
+  margin: 0;
+}
