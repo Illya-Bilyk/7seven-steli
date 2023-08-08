@@ -2,9 +2,10 @@
   background-color: rgba(20, 21, 24, 0.2);
   display: flex;
   padding: 0 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .header-logo {
-  padding: 15px 0;
+  padding: 7.5px 0;
 }
 
 .header-btn {
@@ -16,13 +17,19 @@
 .header-link {
   text-decoration: none;
   color: #fff;
-  font-family: CenturyGothic;
+  font-family: 'Century Gothic Regular';
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
+@media only screen and (max-width: 767px) {
+  .header-link--logo {
+    width: 69px;
+    height: 35px;
+  }
+}
 @media only screen and (max-width: 1023px) {
   .header {
     justify-content: space-between;
@@ -38,6 +45,9 @@
   .header {
     justify-content: center;
     align-items: center;
+  }
+  .header-logo {
+    padding: 15px 0;
   }
   .header-btn {
     display: none;
