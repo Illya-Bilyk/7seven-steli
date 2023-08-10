@@ -14,19 +14,6 @@
   margin-bottom: 56px;
 }
 
-.stages-btn {
-  width: 263px;
-  height: 60px;
-  border-radius: 2px;
-  background-color: #141518;
-  color: #fff;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  cursor: pointer;
-}
-
 .stages-list {
   padding-top: 30px;
   list-style: none;

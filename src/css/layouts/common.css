@@ -22,6 +22,19 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
+.btn {
+  width: 263px;
+  height: 60px;
+  border-radius: 2px;
+  background-color: #141518;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
 #header {
   width: clamp(320px, 100vw, 1920px);
   height: 50px;

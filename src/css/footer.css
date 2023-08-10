@@ -1,0 +1,10 @@
+.footer {
+  background-color: #141518;
+  display: flex;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  color: aliceblue;
+}

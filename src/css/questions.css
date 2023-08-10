@@ -7,7 +7,7 @@
 }
 
 .ques-info {
-  max-width: 330px;
+  max-width: 270px;
 }
 
 .contact-list {
@@ -18,12 +18,16 @@
 .contact-item {
   margin-bottom: 30px;
 }
+.ques-title--style {
+  margin: 0;
+}
 .ques-text--style {
   color: #3c4049;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.44;
+  margin: 30px 0;
 }
 
 .contact-item--text {
@@ -46,11 +50,85 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 448px) {
+.ques-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+}
+
+.ques-form--input {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  background-color: transparent;
+  border-bottom: #ccccdb 1px solid;
+  margin-bottom: 60px;
+  color: #141518;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0 10px;
+  resize: none;
+  /* width: 553px; */
+}
+.ques-form--input input {
+  height: 32px;
+}
+
+.ques-form--input::placeholder {
+  color: #8e8e9e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.37;
+}
+
+.ques-form--input:focus {
+  outline: none !important;
+  /* border: 1px solid #141518; */
+  /* border-radius: 5px; */
+  border-bottom: #141518 1px solid;
+}
+.ques-form--textarea:focus {
+  border: 1px solid #141518;
+  border-radius: 5px;
+}
+
+.form-phoneLabel {
+  color: #8e8e9e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.37;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 448px) {
   .ques-info {
-    max-width: 270px;
+    max-width: 330px;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  .questions-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ques-form {
+    margin-left: 60px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .ques-form {
+    max-width: 553px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ques-form--input {
+    width: 553px;
+  }
 }
