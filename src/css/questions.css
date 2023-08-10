@@ -1,0 +1,56 @@
+.questions {
+  background-color: #f9f9fa;
+}
+
+.questions-wrap {
+  padding: 0 15px;
+}
+
+.ques-info {
+  max-width: 330px;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-item {
+  margin-bottom: 30px;
+}
+.ques-text--style {
+  color: #3c4049;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.44;
+}
+
+.contact-item--text {
+  color: #141518;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.62;
+  margin: 0 auto;
+}
+
+.contact-item--link {
+  color: #141518;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.62;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+}
+
+@media only screen and (max-width: 448px) {
+  .ques-info {
+    max-width: 270px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}

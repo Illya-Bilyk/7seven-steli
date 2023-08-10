@@ -42,6 +42,7 @@
 
 .choice-btn {
   padding-top: 30px;
+  padding-left: 40px;
 }
 
 .choice-btn--style::before {
@@ -49,8 +50,6 @@
   position: absolute;
   width: 80px;
   height: 80px;
-  /* left: 140px; */
-  /* top: 10px; */
   margin-left: -100px;
   margin-top: -22px;
   background-image: url('../images/choice/download.svg');
@@ -75,6 +74,7 @@
 
   .choice-btn {
     padding-top: 30px;
+    padding-left: 0;
   }
 }
 

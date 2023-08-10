@@ -13,13 +13,13 @@
 
 .about-item {
   display: flex;
-  align-items: center;
   margin-bottom: 25px;
 }
 
 .about-item--image {
   padding-right: 30px;
   padding-bottom: 10px;
+  margin-top: 20px;
 }
 
 .about-info {

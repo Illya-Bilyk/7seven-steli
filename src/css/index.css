@@ -1,6 +1,8 @@
 @import url('./layouts/common.css');
 @import url('./layouts/modal.css');
 @import url('./layouts/text-styles.css');
+@import url('./layouts/slider.css');
+
 @import url('./mob-menu.css');
 
 @import url('./header.css');
@@ -8,3 +10,5 @@
 @import url('./about-us.css');
 @import url('./stages.css');
 @import url('./choice.css');
+@import url('./reviews.css');
+@import url('./questions.css');
