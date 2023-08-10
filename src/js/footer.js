@@ -20,7 +20,7 @@ const companyMarkup = companyList
   .map(item => {
     return `
         <li class="company-item">
-            <p class="company-item--text">${item}</p>
+            <p class="item--text">${item}</p>
         </li>
    `;
   })
@@ -30,7 +30,7 @@ const clientsMarkup = clientsList
   .map(item => {
     return `
         <li class="clients-item">
-            <p class="clients-item--text">${item}</p>
+            <p class="item--text">${item}</p>
         </li>
    `;
   })
@@ -39,8 +39,8 @@ const clientsMarkup = clientsList
 const socialMarkup = socialList
   .map(({ src, alt }) => {
     return `
-        <li class="clients-item">
-            <a class="clients-item--link">
+        <li class="social-item">
+            <a class="social-item--link">
             <img src="${src}" alt="${alt}"/>
             </a>
         </li>
