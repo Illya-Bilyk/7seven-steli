@@ -7,6 +7,7 @@ body {
   color: #212121;
   margin: 0 auto;
   font-family: 'Century Gothic Regular';
+  overflow-x: hidden;
 }
 html {
   font-size: 100%;
